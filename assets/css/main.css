@@ -48,6 +48,17 @@
 		-webkit-text-size-adjust: none;
 	}
 
+	#kt-logo img{
+		float: left;
+		height:180px;
+		width: 180px;
+
+	}
+
+	#kt-statement {
+		font-size: 1.3em;
+
+	}
 /* Box Model */
 
 	*, *:before, *:after {
