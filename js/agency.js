@@ -47,4 +47,16 @@
     $(".navbar").removeClass("d-none");
   })
 
+  // claim founding knowledge token
+  $('#claim-kt').click(function() {
+console.log('start of claim');
+    $('#start-kt-claim').html('To claim a founding knowledge token, enter.  Learn how to verify an KT... / <button id="make-claim">Yes, I want to claim a founding KT</button>');
+  });
+  // confirm claim
+  $('button#make-claim').click(function() {
+console.log('return unique ref.');
+    $('#KT-reference').html('KT reference 0dfiDvv8vennEGde2P23J9Cveot');
+  });
+
+
 })(jQuery); // End of use strict
